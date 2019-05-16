@@ -46,7 +46,7 @@
         <version.commons-lang>2.6</version.commons-lang>
         <version.commons-logging>1.2</version.commons-logging>
         <version.commons-pool>1.6</version.commons-pool>
-        <version.curator>2.11.0</version.curator>
+        <version.curator>4.2.0</version.curator>
         <version.deltaspike>1.9.0</version.deltaspike>
         <version.dropwizard-metrics>1.5.0</version.dropwizard-metrics>
         <version.easymock>4.0.2</version.easymock>
