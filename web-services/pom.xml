@@ -51,7 +51,7 @@
         <version.geronimo-stax>1.0.1</version.geronimo-stax>
         <version.jms>1.1</version.jms>
         <version.mrunit>1.0.0</version.mrunit>
-        <version.protobuf>2.5.0</version.protobuf>
+        <version.protobuf>3.4.0</version.protobuf>
         <version.stream>2.7.0</version.stream>
     </properties>
     <dependencyManagement>
@@ -581,11 +581,11 @@
                         <configuration>
                             <rules>
                                 <evaluateBeanshell>
-                                    <condition>${jboss.transaction.time.out} &gt; (${query.max.call.time.minutes} * 60 )</condition>
+                                    <condition>${jboss.transaction.time.out} > (${query.max.call.time.minutes} * 60 )</condition>
                                     <message>jboss.transaction.time.out (seconds) must be larger than query.max.call.time.minutes</message>
                                 </evaluateBeanshell>
                                 <evaluateBeanshell>
-                                    <condition>${jboss.ejb3.connector.time.out} &gt; (${query.max.call.time.minutes} * 60000 )</condition>
+                                    <condition>${jboss.ejb3.connector.time.out} > (${query.max.call.time.minutes} * 60000 )</condition>
                                     <message>ejb3.connector.time.out (milliseconds) must be larger than query.max.call.time.minutes</message>
                                 </evaluateBeanshell>
                             </rules>
