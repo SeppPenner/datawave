@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
     <name>Datawave InMemory Accumulo</name>
     <properties>
-        <version.accumulo>1.9.2</version.accumulo>
+        <version.accumulo>2.0.0</version.accumulo>
     </properties>
     <url>http://code.nsa.gov/datawave</url>
     <licenses>
