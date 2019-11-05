@@ -13,7 +13,7 @@
         <version.commons-lang3>3.8.1</version.commons-lang3>
         <version.commons-net>3.5</version.commons-net>
         <version.geowave>0.9.5</version.geowave>
-        <version.hadoop>3.1.2</version.hadoop>
+        <version.hadoop>3.2.1</version.hadoop>
         <version.jts>1.13</version.jts>
         <version.protostuff>1.5.5</version.protostuff>
         <version.slf4j>1.7.26</version.slf4j>
