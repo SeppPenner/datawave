@@ -13,7 +13,7 @@
     <properties>
         <resource.delimiter>@</resource.delimiter>
         <!-- delimiter that doesn't clash with Spring ${} placeholders -->
-        <version.spring.boot>2.2.0.RELEASE</version.spring.boot>
+        <version.spring.boot>2.2.1.RELEASE</version.spring.boot>
         <version.spring.cloud>Greenwich.RELEASE</version.spring.cloud>
     </properties>
     <dependencyManagement>
